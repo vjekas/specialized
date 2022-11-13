@@ -31,7 +31,16 @@
             <span class="seconds">Seconds</span>
           </div>
         </div>
-        <button type="button">More Detail</button>
+
+        <!-- function onclick(event) {
+  play('/media/sounds/epic_0s1iP1t.mp3', 'loader-119318', 'rick-rolled-99226')} -->
+        <audio id="sound1" src="Rick Roll.mp3" preload="auto"></audio>
+        <button
+          type="button"
+          onclick="document.getElementById('sound1').play();"
+        >
+          More Detail
+        </button>
       </div>
       <!-- <img src="rocket.png" class="rocket" /> -->
       <footer>Copyright &copy; 2022 by VjekasDev</footer>
